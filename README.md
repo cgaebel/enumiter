@@ -40,4 +40,4 @@ Example
 Documentation
 -------------
 
-See the very thorough [API Docs](https://cgaebel.github.io/iobuf/).
+See the very thorough [API Docs](https://cgaebel.github.io/enumiter/).
