@@ -1,10 +1,15 @@
 EnumIter
 ========
 
+[![crates.io](https://img.shields.io/crates/v/enumiter.svg)](https://crates.io/crates/enumiter/)
+
+[![Build Status](https://travis-ci.org/cgaebel/enumiter.svg?branch=master)](https://travis-ci.org/cgaebel/enumiter)
+
+
 A simple iterator through the different variants in an enum.
 
 Example
-=======
+-------
 
 ```rust
   use enumiter::{enum_iter, AllVariantsTakeNoParameters};
@@ -31,3 +36,8 @@ Example
     assert_eq!(format!("{:?}", vals), "[One, Two, Three]");
   }
 ```
+
+Documentation
+-------------
+
+See the very thorough [API Docs](https://cgaebel.github.io/iobuf/).
