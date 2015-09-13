@@ -2,3 +2,15 @@
 name = "enumiter"
 version = "0.1.0"
 authors = ["Clark Gaebel <cg.wowus.cg@gmail.com>"]
+
+documentation = "https://cgaebel.github.io/enumiter"
+homepage      = "https://github.com/cgaebel/enumiter"
+repository    = "https://github.com/cgaebel/enumiter"
+
+readme = "README.md"
+
+keywords = [ "enum", "iter", "enumiter", "iteration", "variant" ]
+
+license = "MIT"
+
+description = "An iterator through the variants in an enum."
