@@ -4,7 +4,7 @@ use std::mem::{transmute_copy, size_of};
 ///
 ///   1. No variant parameters whatsoever.
 ///   2. No index assignment. For example: `enum T { A = 1, B = 2 }`.
-pub unsafe trait AllVariantsTakeNoParameters : Eq  + Copy {}
+pub unsafe trait AllVariantsTakeNoParameters : Eq + Copy {}
 
 pub struct EnumIter<T: AllVariantsTakeNoParameters> {
   cur : T,
